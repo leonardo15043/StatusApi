@@ -1,0 +1,19 @@
+{
+    "require": {
+        "monolog/monolog": "^1.22"
+    },
+    "authors": [
+    	{
+    	"name" : "leonardo hernandez",
+    	"email": "lahernandez15043@gmail.com"
+        }
+    ],
+    "autoload":{
+
+    	"psr-4":{
+    		"Controller\\": "controller/"
+    	}
+
+    }
+
+}

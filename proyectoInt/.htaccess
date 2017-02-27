@@ -1,0 +1,5 @@
+Options +FollowSymLinks -MultiViews
+
+RewriteEngine On
+
+RewriteRule ^([^/]+)/([^/]+) index.php?request=$1&detail=$2 [L,QSA]
